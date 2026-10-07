@@ -1,42 +1,9 @@
-# woia-finance
+# WOIA Finance
 
-Portable Agent Plugin for Generic Finance coordination through accepted sources and governed financial providers..
+Generic department orchestration v0.5.0 requiring Core >=0.5.3. Follow the five-stage [Finance skill](skills/woia-finance/SKILL.md) and [coordination contract](skills/woia-finance/references/finance-contract.md).
 
-## Capability
+Finance coordinates obligations, accepted movements, eligible allocations, external formal settlements and separately approved payouts. The pure helper proposes governed Ledger/Payments operations and Customer Service delivery; it never dispatches, posts or accepts business facts itself. No Real Estate delta, new ledger, backend or organization policy.
 
-~~~text
-DISCOVER -> DECIDE -> IMPLEMENT -> VALIDATE -> REPORT
-~~~
+## Maintenance
 
-The plugin adapts to the repository it operates on without requiring the consumer to adopt WOIA's authoring toolchain.
-
-## Portable package
-
-~~~text
-plugin.json
-README.md
-CHANGELOG.md
-LICENSE
-skills/**
-# optional source diagnostic when retained by the repository
-CHECKSUMS.sha256
-~~~
-
-`CHECKSUMS.sha256` is optional source evidence, not a required portable/release artifact.
-
-Add `mcp.json` only if the capability genuinely requires MCP.
-
-## Consumer requirements
-
-Document only genuine capability/runtime requirements here. Do not list maintenance Node/pnpm/Mise/Docker unless the portable capability itself truly needs them.
-
-## Development
-
-~~~text
-mise install
-mise run bootstrap
-mise run doctor
-mise run ci:fast
-mise run ci:extended
-mise run release:check
-~~~
+Use mise trust, mise install, mise run bootstrap, mise run doctor, mise run ci:fast. Against a committed clean candidate run mise run release:check, then Ecosystem v0.5.4 plugin:certify-thin --repo with the absolute repository path. Local evidence does not imply operational financial qualification or Operator E2E. No tags/releases/admission are authorized at W3 candidate scope.
