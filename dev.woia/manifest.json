@@ -2,6 +2,8 @@
   "schema": "dev.woia.department-orchestrator/v1",
   "version": "0.5.0",
   "department": "finance",
+  "authoring_profile": "thin",
+  "origin": "native",
   "execution_model": "finance-coordination",
   "requires_plugins": [{"name":"woia-core","minimum_version":"0.5.3"}],
   "methodology_state": ".woia/departments/finance.json",
