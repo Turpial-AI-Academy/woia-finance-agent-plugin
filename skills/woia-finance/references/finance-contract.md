@@ -1,6 +1,6 @@
 # Finance coordination contract
 
-Canonical source: WOIA Real Estate b716f1d1c0e2bc5ecf946043b337a2ddba4285f0; ADR-0016 and docs/21,22,24,25. Five stages: accepted sources/opening; obligations; accepted movements/allocations; external formal settlement/separate disbursement; exceptions/continuity. B6 permits implementation without conferring operational financial powers.
+Five stages: accepted sources/opening; obligations; accepted movements/allocations; external formal settlement/separate disbursement; exceptions/continuity.
 
 Core >=0.5.7 owns work/authority/Effects. Ledger owns Charges, ChargeAdjustment, journal, Allocation and balances; Payments owns observation, acceptance, reservation, execution and reconciliation. Documents owns immutable artifacts. Domain settlement provider is context-selected, not a generic hard dependency. Actual policy, accounts, grants, amount/currency/fees, beneficiary/custody/purpose and source contract remain organization configuration.
 
