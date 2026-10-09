@@ -6,7 +6,7 @@ license: MIT
 
 # Finance coordination
 
-Requires Core >=0.5.6. One root per organization/department/Project context. Generic method, no Real Estate delta. Never create a second ledger, private work engine or model-generated monetary truth.
+Requires Core >=0.5.7. One root per organization/department/Project context. Generic method, no Real Estate delta. Never create a second ledger, private work engine or model-generated monetary truth.
 
 ## Five stages
 
