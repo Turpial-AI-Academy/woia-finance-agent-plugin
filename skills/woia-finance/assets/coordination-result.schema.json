@@ -1,1 +1,32 @@
-{"$schema":"http://json-schema.org/draft-07/schema#","type":"object","required":["result","dispatch"],"properties":{"result":{"enum":["BLOCKED","PROPOSAL_ONLY","CROSS_DEPARTMENT_REQUEST_PROPOSAL"]},"dispatch":{"const":false},"financial_fact_created":{"const":false},"payout_proven":{"const":false},"receiver_authority_inherited":{"const":false},"provider_revalidation_required":{"const":true}}}
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "result",
+    "dispatch"
+  ],
+  "properties": {
+    "result": {
+      "enum": [
+        "BLOCKED",
+        "PROPOSAL_ONLY",
+        "CROSS_DEPARTMENT_REQUEST_PROPOSAL"
+      ]
+    },
+    "dispatch": {
+      "const": false
+    },
+    "financial_fact_created": {
+      "const": false
+    },
+    "payout_proven": {
+      "const": false
+    },
+    "receiver_authority_inherited": {
+      "const": false
+    },
+    "provider_revalidation_required": {
+      "const": true
+    }
+  }
+}
