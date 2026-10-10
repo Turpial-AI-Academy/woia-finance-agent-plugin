@@ -1,7 +1,7 @@
 {
   "name": "woia-finance-agent-plugin-repo",
   "private": true,
-  "version": "0.5.7",
+  "version": "0.5.8",
   "description": "Repository maintenance tooling for the woia-finance portable Agent Plugin.",
   "type": "module",
   "engines": {
